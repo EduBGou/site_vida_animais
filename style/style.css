@@ -129,7 +129,7 @@ h1.bigTitle{
     padding: 20px 5vw;
 }
 
-.bttn{
+#bttnAdoption{
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-evenly;
@@ -143,23 +143,29 @@ h1.bigTitle{
     background-color: var(--color-standartBlue);
     color: white;
     box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.7);
-
+    
     font-size: 1em;
     font-weight: bold;
 
-    transition-duration: 0.35s;
+    opacity: 0;
+    transition-duration: 5.35s;
+
     gap: 1em;
     padding: 5px 10px;
     border: none;
     border-radius: 10px;
 }
 
-.bttn p{
+#bttnAdoption p{
     text-wrap: nowrap;
 }
 
-.bttn:hover{
+#bttnAdoption:hover{
     font-size: 1.1em;
+}
+
+.bxAnimalsLowOpacity:hover #bttnAdoption{
+    opacity: 1;
 }
 
 .Icon{
