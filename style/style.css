@@ -5,6 +5,9 @@
     box-sizing: border-box;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
 :root{
     --color-standartBlue: rgb(0, 95, 180);
     --color-standartOrange: rgb(254, 102, 3);
@@ -146,9 +149,8 @@ h1.bigTitle{
     
     font-size: 1em;
     font-weight: bold;
-
-    opacity: 0;
-    transition-duration: 5.35s;
+     opacity: 0.95;
+    transition-duration: 0.4s;
 
     gap: 1em;
     padding: 5px 10px;
@@ -162,10 +164,6 @@ h1.bigTitle{
 
 #bttnAdoption:hover{
     font-size: 1.1em;
-}
-
-.bxAnimalsLowOpacity:hover #bttnAdoption{
-    opacity: 1;
 }
 
 .Icon{
